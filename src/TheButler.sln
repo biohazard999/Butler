@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{ADD20818-EA18-4737-AF46-14DD7A42303A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheDelegate.TheButler.Win", "Application\TheDelegate.TheButler.Win\TheDelegate.TheButler.Win.csproj", "{173BF244-C348-4DBE-9AB1-6F1A3E9AA67F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheDelegate.TheButler.Win.Tests", "Application\TheDelegate.TheButler.Win.Tests\TheDelegate.TheButler.Win.Tests.csproj", "{CBC427AF-6790-4BAE-816C-C4F12DDCAD10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{173BF244-C348-4DBE-9AB1-6F1A3E9AA67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173BF244-C348-4DBE-9AB1-6F1A3E9AA67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173BF244-C348-4DBE-9AB1-6F1A3E9AA67F}.Debug|x86.ActiveCfg = Debug|x86
+		{173BF244-C348-4DBE-9AB1-6F1A3E9AA67F}.Debug|x86.Build.0 = Debug|x86
+		{173BF244-C348-4DBE-9AB1-6F1A3E9AA67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173BF244-C348-4DBE-9AB1-6F1A3E9AA67F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{173BF244-C348-4DBE-9AB1-6F1A3E9AA67F}.Release|x86.ActiveCfg = Release|x86
+		{173BF244-C348-4DBE-9AB1-6F1A3E9AA67F}.Release|x86.Build.0 = Release|x86
+		{CBC427AF-6790-4BAE-816C-C4F12DDCAD10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC427AF-6790-4BAE-816C-C4F12DDCAD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC427AF-6790-4BAE-816C-C4F12DDCAD10}.Debug|x86.ActiveCfg = Debug|x86
+		{CBC427AF-6790-4BAE-816C-C4F12DDCAD10}.Debug|x86.Build.0 = Debug|x86
+		{CBC427AF-6790-4BAE-816C-C4F12DDCAD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC427AF-6790-4BAE-816C-C4F12DDCAD10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC427AF-6790-4BAE-816C-C4F12DDCAD10}.Release|x86.ActiveCfg = Release|x86
+		{CBC427AF-6790-4BAE-816C-C4F12DDCAD10}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{173BF244-C348-4DBE-9AB1-6F1A3E9AA67F} = {ADD20818-EA18-4737-AF46-14DD7A42303A}
+		{CBC427AF-6790-4BAE-816C-C4F12DDCAD10} = {ADD20818-EA18-4737-AF46-14DD7A42303A}
+	EndGlobalSection
+EndGlobal

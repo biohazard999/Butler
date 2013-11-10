@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CBC427AF-6790-4BAE-816C-C4F12DDCAD10}</ProjectGuid>
+    <ProjectGuid>{8B1DFA6F-0935-46FC-82F1-DB1B5BE8229E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TheDelegate.TheButler.Win.Tests</RootNamespace>
-    <AssemblyName>TheDelegate.TheButler.Win.Tests</AssemblyName>
+    <RootNamespace>TheDelegate.TheButler.Model.Tests</RootNamespace>
+    <AssemblyName>TheDelegate.TheButler.Model.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -53,9 +53,10 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.ExpressApp.v13.1, Version=13.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.ExpressApp.Win.v13.1, Version=13.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="FluentAssertions">
+    <Reference Include="DevExpress.Data.v13.1, Version=13.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v13.1, Version=13.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="FluentAssertions, Version=2.1.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Packages\FluentAssertions.2.1.0.0\lib\net40\FluentAssertions.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -78,14 +79,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="ButlerWinApplicationTests.cs" />
-    <Compile Include="ProgramTests.cs" />
+    <Compile Include="BaseObjectOidTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TheDelegate.TheButler.Win\TheDelegate.TheButler.Win.csproj">
-      <Project>{173bf244-c348-4dbe-9ab1-6f1a3e9aa67f}</Project>
-      <Name>TheDelegate.TheButler.Win</Name>
+    <ProjectReference Include="..\TheDelegate.TheButler.Model\TheDelegate.TheButler.Model.csproj">
+      <Project>{dd7e2297-2c43-4de9-8442-fcfde5a099cc}</Project>
+      <Name>TheDelegate.TheButler.Model</Name>
       <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
